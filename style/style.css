@@ -1,0 +1,60 @@
+body{
+    background-color: #222831;
+    color: #222831;
+}
+
+p {
+    margin: 0;
+}
+.box{
+    width: 320px;
+    height: 600px;
+    background-color: #dddddd;
+    border-radius: 50px;
+    border: #ffffff 10px solid;
+    margin: 75px auto;
+    padding: 10px;
+    
+}
+
+.notch{
+    background-color: #ffffff;
+    width: 160px;
+    height: 25px;
+    border-radius: 75px;
+    position: absolute;
+    top: 75px;
+    right: 640px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 5px;
+}
+.time {
+    font-size: 0.7rem;
+    position: relative;
+    left: 13px;
+    bottom: 5px;
+}
+li {
+    font-size: 0.8rem;
+    line-height: 1;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding:  0 5px;
+}
+.small{
+    font-size: 0.8rem;
+    width: 150px;
+}
+.footer {
+    margin-top: 25px;
+}
+.tiny {
+    font-size: 0.75rem;
+}
